@@ -1,0 +1,49 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.login-btn {
+  background-color: burlywood;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.mindx-label {
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.login-form {
+  background-color: antiquewhite;
+  max-width: 500px;
+  border-radius: 20px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form input,
+.login-form button {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
